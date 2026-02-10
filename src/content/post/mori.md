@@ -1,12 +1,12 @@
 ---
-title: "test1"
+title: "挪威的森林"
 publishDate: "10 Feb 2026"
-description: "a test context"
+description: "挪威的森林主观读后感"
 featured: false
-tags: ["markdown", "headings", "example", "toc"]
+tags: ["随笔", "读后感", "村上春树"]
 ---
 
-## 挪威的森林
+# 挪威的森林
 
 早在初中时期便常常听闻这本书的大名，但当时更多是作为一本所谓的“小黄书”听说的。青春期的少年们总是躁动且叛逆着的，因此在谈性色变的时代便总是热衷于在表番里面找r18，在家长老师吹捧的名著中寻找少儿不宜的情节，并奉为圣经，既是为了满足自己的好奇心，也是对权威的一种反抗。
 
