@@ -6,6 +6,7 @@ import WebMentions from "@/components/blog/webmentions/index.astro";
 import BaseLayout from "./Base.astro";
 import SeriesPanel from "@/components/SeriesPanel.astro";
 import { Icon } from "astro-icon/components";
+import Waline from '../components/Waline.astro';
 
 interface Props {
 	post: CollectionEntry<"post">;
@@ -77,6 +78,9 @@ const { headings } = await render(post);
 				<slot />
 			</div>
 			<WebMentions />
+			<div class="mt-10">
+        		<Waline />
+      		</div>
 		</article>
 		{!!headings.length && (
 			<aside 

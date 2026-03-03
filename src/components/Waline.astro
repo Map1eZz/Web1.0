@@ -1,0 +1,24 @@
+---
+// src/components/Waline.astro
+---
+<div id="waline-container"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+  init({
+    el: '#waline-container',
+    serverURL: 'maple-comment.vercel.app', 
+    dark: 'html.dark', // 如果你的博客支持暗黑模式，这行可以自动适配主题切换
+    // path: window.location.pathname, // 默认以当前页面路径作为文章的唯一标识
+  });
+</script>
+
+<style>
+  /* 你可以在这里对评论区的外边距等做一些基础微调 */
+  #waline-container {
+    margin-top: 2rem;
+  }
+</style>
